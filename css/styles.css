@@ -1,0 +1,107 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+nav {
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  text-decoration: none;
+}
+
+li {
+  font-size: 1.3rem;
+  margin: 0 20px;
+}
+
+a {
+  float: left;
+  display: block;
+  color: rgb(235, 235, 235);
+  margin: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(180, 180, 180);
+}
+
+#home {
+  align-items: center;
+  background-image: url("https://static.wikia.nocookie.net/finalfantasy/images/a/ac/Seventh_Heaven_from_FFVII_Remake.jpg/revision/latest?cb=20210612061412");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "Merriweather";
+  font-size: 1.6rem;
+  font-weight: bolder;
+  justify-content: center;
+  height: 700px;
+  margin: 0;
+  -webkit-text-stroke: 0.05px rgb(245, 245, 245);
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  width: 100%;
+  opacity: 0.85;
+}
+
+.intro {
+  background-color: rgba(60, 255, 255, 0);
+  font-size: 1.6rem;
+  margin: 2% auto;
+  text-align: center;
+}
+
+p {
+  background-color: rgba(60, 255, 255, 0.4);
+  border-radius: 3%;
+  font-style: oblique;
+  text-align: left;
+  width: 85%;
+}
+
+#party-members {
+ background-image: url("https://cdnb.artstation.com/p/assets/images/images/033/935/479/large/hamida-usman-screenshot-2.jpg?1610972358");
+ color: white;
+ display: flex;
+ height: 700Px;
+ opacity: 0.85;
+ font-family: "Merriweather";
+ font-size: 1.5rem;
+ -webkit-text-stroke: 0.05px rgb(245, 245, 245);
+ text-shadow: 2px 2px 4px black;
+ text-align: center;
+}
+
+.member {
+  margin-top: 5%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+}
+
+.photo {
+  border-radius: 50%;
+  border-style: inset;
+  width: 45%;
+}
+
+span {
+  background-color: rgba(150, 150, 150, 0.6);
+  font-size: 1.3rem;
+  margin-top: 5%;
+  text-align: left;
+  width: 85%;
+}
